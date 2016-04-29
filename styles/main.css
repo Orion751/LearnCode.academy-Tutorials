@@ -3,7 +3,7 @@ body {
   font-family: arial;
 }
 
-h1 {
+h1, h2, p, li, a {
   color: #555;
 }
 
