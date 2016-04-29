@@ -3,11 +3,34 @@ body {
   font-family: arial;
 }
 
-h1, h2, p, li, {
+h1, h2, li, {
   color: #555;
 }
 
 a {
   color: green;
+}
+
+p {
+  background: #666;
+  color: white;
+  padding: 10px;
+}
+
+.secondary {
+  background: none;
+  color: #777;
+}
+
+p {
+  background: red;
+  color: white;
+  padding: 10px;
+}
+
+#nav {
+  background: gold;
+  color: #777;
+
 }
 
