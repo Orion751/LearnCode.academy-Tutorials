@@ -1,46 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dan's Webpage</title>
-    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <title>Dan's Page</title>
+    <link rel="stylesheet" href="styles/main.css">
   </head>
-
   <body>
-  <h1>This is a test</h1>
 
-  <h1>These are a couple of paragraphs</h1>
-  <p>This is a bunch of text.</p>
-  <p class="secondary">It has a couple lines.</p>
-  <p class="secondary">Here's another line.</p>
+    <header>
+      <nav>
+        <h1>My Page</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Links</a></li>
+        </ul>
+      </nav>
 
-  <h2>These are a couple of lists</h2>
-  <h3>This is an unordered list</h3>
-  <ul id="nav">
-    <li>Home</li>
-    <li class="secondary"><a href="page2.html">page 2</a></li>
-    <li><a href="page3.html">page 3</a></li>
-  </ul>
-  <h3>This is an ordered list</h3>
-  <ol>
-    <li>This is the first item.</li>
-    <li class="secondary">This is the second item.</li>
-    <li>This is the third item.</li>
-  </ol>
+    </header>
 
-  <h3>This is the old way of using HTML tags for special formatting text</h3>
-  <ol>
-    <li>You used to use the "i" tag for <i>italicized text</i></li>
-    <li>You used to use the "b" tag for <b>bold text</b></li>
-    <li>You used to use the "u" tag for <u>underlined text</u></li>
-  </ol>
+    <div class="row">
+      <div class="col">col1</div>
+      <div class="col">col2</div>
+      <div class="col">col3</div>
+    </div>
 
-  <h3>This is the new (semantic) approach to doing the above</h3>
-  <ol>
-    <li>You now use the "em" tag for <em>italicized text (emphasis).</em></li>
-    <li>You now use the "strong" tag for <strong>bold text (strong emphasis).</strong></li>
-    <li>You can use the "ins" tag to get <ins>underlined text (apparently intended for text inserted after publication.  Perhaps this is where CSS comes in?).</ins></li>
-  </ol>
+    <div class="row">
+      <div class="col">col1</div>
+    </div>
 
+    <footer>Copyright 2016 My Site</footer>
   </body>
 
 </html>
+
